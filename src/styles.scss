@@ -2,7 +2,7 @@
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 
 $body-bg: #ddd;
-$body-color: #222;
+$body-color: rgba(255, 255, 255, 0.548);
 $primary: hotpink;
 $font-family-base: Arial;
 
@@ -11,15 +11,6 @@ $font-family-base: Arial;
 
 // Add you custom CSS
 
-.fancy {
-  display: inline-block;
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
-  color: #fff;
-  padding: 0.5em;
+body {
+  background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80");
 }
