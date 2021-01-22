@@ -1,0 +1,25 @@
+// Your variable overrides
+// See node_modules/bootstrap/scss/_variables.scss for all variables
+
+$body-bg: #ddd;
+$body-color: #222;
+$primary: hotpink;
+$font-family-base: Arial;
+
+// Include all Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Add you custom CSS
+
+.fancy {
+  display: inline-block;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: #fff;
+  padding: 0.5em;
+}
