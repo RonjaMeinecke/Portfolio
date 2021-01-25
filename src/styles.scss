@@ -3,7 +3,7 @@
 
 $body-bg: #ddd;
 $body-color: rgba(255, 255, 255, 0.548);
-$primary: hotpink;
+$primary: rgb(0, 0, 0);
 $font-family-base: Arial;
 
 // Include all Bootstrap
@@ -13,4 +13,152 @@ $font-family-base: Arial;
 
 body {
   background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto Mono", monospace;
+  color: black;
+}
+.container-fluid {
+  height: 100px;
+}
+.container {
+  padding-left: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  font-size: 15px;
+}
+.container-sm {
+  padding-top: 3%;
+}
+.col {
+  width: 500px;
+  justify-content: center;
+  display: flex;
+  padding-top: 2%;
+  background: none;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.291);
+  justify-content: center;
+  margin-left: 5%;
+  width: 600px;
+  border-style: dotted;
+  border-color: rgba(0, 0, 0, 0.107);
+  margin-bottom: 8%;
+}
+.card-img-top {
+  width: 350px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+h1 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 40px;
+  color: #efd3cd;
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+  font-size: 12px;
+}
+.subline {
+  text-align: center;
+  font-size: 10px;
+}
+h2 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 28px;
+  color: #000000;
+  text-align: right;
+}
+.box-text {
+  font-size: 13px;
+  line-height: 19px;
+  text-align: right;
+}
+h3 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 28px;
+  color: #000000;
+  text-align: right;
+}
+.languages {
+  padding-top: 3%;
+}
+#top {
+  text-align: right;
+  display: flex;
+  font-size: 14px;
+}
+h4 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 28px;
+  color: #000000;
+  text-align: left;
+}
+.col-9 {
+  margin-left: 2%;
+  width: 86%;
+}
+.col-4 {
+  margin-left: 2%;
+  font-size: 14px;
+}
+.col-6 {
+  padding-top: 1px;
+  padding-bottom: 10px;
+}
+
+h5 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 28px;
+  color: #000000;
+  text-align: left;
+  padding-bottom: 2%;
+  margin-left: 2%;
+  width: 86%;
+}
+.contactinfo {
+  margin-left: 2%;
+}
+footer {
+  padding-top: 2%;
+  height: 50px;
+  position: sticky;
+  width: 100%;
+  display: table;
+  background-color: #efd3cd;
+  text-align: center;
+}
+.container2 {
+  align-content: center;
+}
+.copright {
+  font-size: 5px;
+}
+.socialbar {
+  font-size: 8px;
+}
+.icon {
+  padding-top: 3%;
+  color: #fff;
+  background: #000000;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-family: fontawesome;
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 28px;
+  padding-top: 12px;
+  margin: 0 2px;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-font-smoothing: antialiased;
 }
